@@ -1,0 +1,37 @@
+var,متغير
+and,و
+or,أو
+not,ليس
+if,لو
+elif,أما_إذا
+else,وإلا
+from,من
+to,الي
+step,خطوة
+while,بينما
+func,دالة
+do,نفذ
+end,نهاية
+return,اعد
+continue,استمر
+break,توقف
+print,طباعة
+input,استقبل
+int_input,استقبل_رقم
+int,رقم
+float,عدد_عشري
+Expected,المتوقع
+identifier,المعرف
+is_int,هل_رقم
+is_str,هل_نص
+is_lst,هل_قائمة
+is_func,هل_دالة
+null,لا_شئ
+true,صواب
+false,خطأ
+clear, نظف
+append, اضف
+extend, مدد
+pop, احذف
+len, حجم
+NEWLINE, سطر جديد
