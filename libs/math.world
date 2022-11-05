@@ -1,0 +1,19 @@
+func pow(x, y) -> x^y
+
+func sum(lst)
+	var thesum = 0
+	from i = 0 to len(lst) do 
+		var thesum = thesum + lst/i
+	end
+	return thesum
+end
+
+func max(lst)
+	var maxNum = 0
+	from i = 0 to len(lst) do 
+		if lst/i > maxNum do
+			var maxNum = lst/i
+		end
+	end
+	return maxNum
+end

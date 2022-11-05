@@ -8,6 +8,7 @@ from Tokens import *
 from Errors import *
 # NODES
 
+
 class NumberNode:
     def __init__(self, tok):
         self.tok = tok

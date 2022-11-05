@@ -1,3 +1,5 @@
+import os
+import sys
 TT_INT = 'INT'
 TT_FLOAT = 'FLOAT'
 TT_STRING = 'STRING'
@@ -24,9 +26,13 @@ TT_ARROW = 'ARROW'
 TT_NEWLINE = 'NEWLINE'
 TT_EOF = 'EOF'
 
-# Data Processing
 
-data = open("keywords.txt", "r", encoding="UTF-8")
+# Data Processing
+if getattr(sys, 'frozen', False):
+    app_path = os.path.dirname(sys.executable)
+else:
+    app_path = os.path.dirname(os.path.abspath(__file__))
+data = open(r"{}\keywords.txt".format(app_path), "r", encoding="UTF-8")
 my_data = data.readlines()
 instructions = []
 trans = []
