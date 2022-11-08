@@ -2,4 +2,4 @@
 - [x] Lists✨✨
 - [ ] Adding dicts🤓
 - [ ] Classes and Objects⌨️
-- [ x ] Adding C libraries🐲
+- [ ] Adding C libraries🐲
