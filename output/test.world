@@ -1,8 +1,0 @@
-<<("World Calc")
-<<("Enter a number : ")
-\> first_number = >>()
-# The second number
-<<("Enter another number : ")
-\> second_number = >>()
-<<("The Sum : ")
-<<(second_number + first_number)
